@@ -5,7 +5,7 @@ import pandas as pd
 def evaluate_model():
     # Load the model and data
     model = joblib.load('models/movie_rating_model.pkl')
-    data = pd.read_csv('data/preprocessed_movies.csv')
+    data = pd.read_csv('data/preprocessed_train.csv')
     
     X = data.drop(columns=['Rating'])
     y = data['Rating']
