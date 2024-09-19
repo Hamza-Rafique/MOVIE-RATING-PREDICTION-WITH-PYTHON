@@ -84,6 +84,7 @@ media/
 
 # Ignore movies.csv and other large dataset files
 data/movies.csv
+data/preprocessed_train.csv
 data/*.csv
 data/*.json
 
